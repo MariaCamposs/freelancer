@@ -11,7 +11,7 @@
     justify-content: center;
     display: flex;
 }
-.star{
+.estrella{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -19,13 +19,13 @@
     width:300px;
     align-self: center;
 }
-.star::after { 
+.estrella::after { 
     content: "";
     display:block;
     width:200px ;
     border-bottom: 5px solid #2c3e50;
 }
-.star::before { 
+.estrella::before { 
     content: "";
     display:block;
     width:200px ;
