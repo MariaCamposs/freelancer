@@ -196,3 +196,88 @@ h1{
   width: 200px;
   gap: 5px;
 }
+.form{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.estrella{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    width:300px;
+    align-self: center;
+}
+.estrella::after { 
+    content: "";
+    display:block;
+    width:200px ;
+    border-bottom: 5px solid #2c3e50;
+}
+.estrella::before { 
+    content: "";
+    display:block;
+    width:200px ;
+    border-bottom: 5px solid #2c3e50;
+}
+#formulario{
+    margin: 15px;
+    padding: 15px;  
+    text-align: center;
+    color: #2c3e50;
+  }
+.container{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    width:450px;
+    height:35px;
+    margin: 8.5px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2.5px rgb(182, 177, 177);
+}
+.email{
+    width:450px;
+    height:35px;
+    margin: 8.5px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2.5px rgb(182, 177, 177);
+}
+.number{    
+    width:450px;
+    height:35px;
+    margin: 8.5px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2.5px rgb(182, 177, 177);
+}
+.message{ 
+    width:450px;
+    height:85px;
+    margin: 8.5px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2.5px rgb(182, 177, 177);
+}
+.button{ 
+    padding:20px;
+    height:35px;
+    border-radius:3px;
+    cursor:pointer;
+    color: #fff;
+    background-color: #18bc9c;
+    border: none;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+}
