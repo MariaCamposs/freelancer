@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Montserrat:wght@500&family=Roboto+Slab:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 *{
@@ -6,6 +7,17 @@
     font-family: 'Lato', sans-serif;
     margin:  0;
     padding: 0;
+}
+:root{
+  --main-color: #2c3e50;
+  --second-color: #18bc9c;
+  --last-color: #212529;
+  --text-color: #fff;
+  --font-Lato-bold: 'Lato',
+  sans-serif;
+  --font-Lato-fit: 'Lato',
+  sans-serif;
+
 }
 .header{
     position: fixed;
@@ -281,3 +293,58 @@ h1{
     padding-top: 10px;
     margin-top: 20px;
 }
+
+.footer{
+  background-color: var(--last-color);
+  color: var(--text-color);
+  padding: 30px 80px 15px;
+}
+
+.text-footer{
+  text-align: center;
+  padding: 0 43px;
+}
+
+.container-block-footer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.footer-title{
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-family: var(--font-Montserrat-bold);
+}
+
+.text-span {
+  color: var(--second-color);
+}
+
+.container-icons-footer{
+  display: grid;
+  grid-template-columns: repeat(5, 0.1fr);
+  justify-content: center;
+  width: inherit;
+}
+
+.container-icon{
+  border-radius: 50%;
+  border: 1px solid var(--text-color);
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  padding: 10px 15px 15px 10px;
+}
+
+.fab{
+  color: var(--text-color);
+  width: 5px;
+  height: 5px;
+}
+
+.text-copy{
+  text-align: center;
+  padding-top: 90px;
+  font-size: 13px;
