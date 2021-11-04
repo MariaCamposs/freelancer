@@ -1,3 +1,78 @@
 /*
- * Estilos de tu proyecto
+ * Estilos de About
  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+ *{
+   margin: 0;
+   box-sizing: border-box;
+ }
+.about{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  background-color: #18bc9c;
+  color: #FFFFFF;
+  padding: 50px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+}
+.fa-star{
+  font-size: 25px;
+  display: flex;
+}
+.star{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  width: 20%;
+  align-self: center;
+}
+.star::before {
+    content: "";
+    display: block;
+    width: 60px ;
+    border-bottom: 4px solid white;
+}
+.star::after {
+    content: "";
+    display: block;
+    width: 60px ;
+    border-bottom: 4px solid white;
+}
+.articles{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+}
+.first-column, .second-column{
+  width: 25%;
+}
+.download-section{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  width: 100%;
+}
+.download{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  gap: 5px;
+}
